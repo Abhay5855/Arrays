@@ -11,7 +11,8 @@ int main()
     {
         cin >> a[i];
     }
-
+    
+    //to check largest element
     int largest = INT8_MIN;
     for (int i = 0; i < n; i++)
     {
@@ -23,4 +24,17 @@ int main()
     }
 
     cout << largest << endl;
+
+    // to check smallest element
+    int smallest = INT8_MAX;
+    for (int i = 0; i < n; i++)
+    {
+        /* code */
+        if(a[i] < smallest){
+            smallest = a[i];
+        }
+    }
+
+    cout << smallest << endl;
+    
 }
