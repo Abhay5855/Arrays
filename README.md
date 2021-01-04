@@ -1,2 +1,2 @@
 # Arrays
- data structure and algo using arrays -C++
+ data structure and algo using arrays-C++
